@@ -8,6 +8,7 @@ Group:		Applications/Science
 Source0:	%{name}-%{version}.tar.gz
 URL:		http://www.avatar.se/molscript/
 Patch0:		%{name}-%{version}.patch
+NoSource:	0
 BuildRequires:	gd-devel
 BuildRequires:	libjpeg-devel
 BuildRequires:	libpng-devel
