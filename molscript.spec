@@ -8,7 +8,7 @@ Group:		Applications/Science
 Source0:	%{name}-%{version}.tar.gz
 Patch0:		%{name}-%{version}.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildRequires:	Mesa-devel libjpeg-devel zlib-devel libpng-devel gd-devel raster3d ImageMagick
+BuildRequires:	libjpeg-devel zlib-devel libpng-devel gd-devel
 
 %description
 MolScript is one of the standard tools used for producing publication
@@ -28,9 +28,9 @@ academic work. The licensed distribution package is available from
 http://www.avatar.se/molscript
 
 %description -l pl
-MosScript jest jednym ze standardowych narzêdzi do tworzenia wysokiej jako¶ci molekularnych obrazów do pó¼niejszej póblikacji z trójwymiarowych koordunatów atomów. Obrazy mog± zostaæ wygenerowane w formatach: Postscipt (kolorowe i czarno bia³e), Raster3D, VRML, RGB, JPEG, PNG i GIF. Wyniki mo¿na równie¿ interaktynwnie ogl±daæ pod X'ami z OpenGL. 
+MosScript jest jednym ze standardowych narzêdzi do tworzenia wysokiej jako¶ci molekularnych obrazów do pó¼niejszej publikacji z trójwymiarowych koordynantów atomów. Obrazy mog± zostaæ wygenerowane w formatach: Postscipt (kolorowe i czarno-bia³e), Raster3D, VRML, RGB, JPEG, PNG i GIF. Wyniki mo¿na równie¿ interaktynwnie ogl±daæ pod X'ami z OpenGL. 
 
-Kod ¼ród³owy, binarki i dokumentacja nie mog± byæ rozpowszechniane za darmo, obowi±zuje zastrze¿enie. Wymagana jest licencja aby uzyskaæ i u¿ywaæ programu, na szczê¶cie nie ma op³at je¶li program u¿ywa siê w celach niekomercyjnych. Wersjê licencjonowan± mo¿na otrzymaæ pod adresem http://www.avatar.se/molscript
+Kod ¼ród³owy, binarki i dokumentacja nie mog± byæ rozpowszechniane za darmo, obowi±zuje zastrze¿enie. Wymagana jest licencja, aby uzyskaæ i u¿ywaæ program, na szczê¶cie nie ma op³at je¶li program u¿ywa siê w celach niekomercyjnych. Wersjê licencjonowan± mo¿na otrzymaæ pod adresem http://www.avatar.se/molscript
 
 %prep
 %setup -q
@@ -38,8 +38,8 @@ Kod ¼ród³owy, binarki i dokumentacja nie mog± byæ rozpowszechniane za darmo, obo
 
 %build
 %{__make} COPT="$RPM_OPT_FLAGS"
-cd examples
-%{__make}
+#cd examples
+#%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
