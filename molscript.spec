@@ -30,7 +30,7 @@ distributed freely as it is copyrighted 1997-1998 Per Kraulis. A
 license is required to obtain and use the program, fortunately there
 is no fee for academic institutions that use MolScript exclusively for
 academic work. The licensed distribution package is available from
-http://www.avatar.se/molscript/ .
+<http://www.avatar.se/molscript/>.
 
 %description -l pl
 MolScript jest jednym ze standardowych narzêdzi do tworzenia wysokiej
@@ -44,7 +44,7 @@ Kod ¼ród³owy, binarki i dokumentacja nie mog± byæ swobodnie
 rozpowszechniane, obowi±zuje zastrze¿enie. Wymagana jest licencja,
 aby uzyskaæ i u¿ywaæ program, na szczê¶cie nie ma op³at je¶li program
 u¿ywa siê w celach niekomercyjnych. Wersjê licencjonowan± mo¿na
-otrzymaæ pod adresem http://www.avatar.se/molscript/ .
+otrzymaæ pod adresem <http://www.avatar.se/molscript/>.
 
 %prep
 %setup -q
