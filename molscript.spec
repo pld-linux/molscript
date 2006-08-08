@@ -48,7 +48,7 @@ otrzymaæ pod adresem <http://www.avatar.se/molscript/>.
 
 %prep
 %setup -q
-%patch -p1
+%patch0 -p1
 
 %build
 %{__make} \
