@@ -1,5 +1,5 @@
 Summary:	MolScript - a tool for producing publication quality molecular images
-Summary(pl):	MolScript - narzêdzie do tworzenia obrazów cz±steczek nadaj±cych siê do publikacji
+Summary(pl.UTF-8):   MolScript - narzÄ™dzie do tworzenia obrazÃ³w czÄ…steczek nadajÄ…cych siÄ™ do publikacji
 Name:		molscript
 Version:	2.1.2
 Release:	1
@@ -32,19 +32,19 @@ is no fee for academic institutions that use MolScript exclusively for
 academic work. The licensed distribution package is available from
 <http://www.avatar.se/molscript/>.
 
-%description -l pl
-MolScript jest jednym ze standardowych narzêdzi do tworzenia wysokiej
-jako¶ci molekularnych obrazów do pó¼niejszej publikacji z
-trójwymiarowych wspó³rzêdnych atomów. Obrazy mog± zostaæ wygenerowane
-w formatach: Postscipt (kolorowym lub czarno-bia³ym), Raster3D, VRML,
-RGB, JPEG, PNG i GIF. Wyniki mo¿na równie¿ interaktywnie ogl±daæ pod
+%description -l pl.UTF-8
+MolScript jest jednym ze standardowych narzÄ™dzi do tworzenia wysokiej
+jakoÅ›ci molekularnych obrazÃ³w do pÃ³Åºniejszej publikacji z
+trÃ³jwymiarowych wspÃ³Å‚rzÄ™dnych atomÃ³w. Obrazy mogÄ… zostaÄ‡ wygenerowane
+w formatach: Postscipt (kolorowym lub czarno-biaÅ‚ym), Raster3D, VRML,
+RGB, JPEG, PNG i GIF. Wyniki moÅ¼na rÃ³wnieÅ¼ interaktywnie oglÄ…daÄ‡ pod
 systemem X Window z OpenGL.
 
-Kod ¼ród³owy, binarki i dokumentacja nie mog± byæ swobodnie
-rozpowszechniane, obowi±zuje zastrze¿enie. Wymagana jest licencja,
-aby uzyskaæ i u¿ywaæ program, na szczê¶cie nie ma op³at je¶li program
-u¿ywa siê w celach niekomercyjnych. Wersjê licencjonowan± mo¿na
-otrzymaæ pod adresem <http://www.avatar.se/molscript/>.
+Kod ÅºrÃ³dÅ‚owy, binarki i dokumentacja nie mogÄ… byÄ‡ swobodnie
+rozpowszechniane, obowiÄ…zuje zastrzeÅ¼enie. Wymagana jest licencja,
+aby uzyskaÄ‡ i uÅ¼ywaÄ‡ program, na szczÄ™Å›cie nie ma opÅ‚at jeÅ›li program
+uÅ¼ywa siÄ™ w celach niekomercyjnych. WersjÄ™ licencjonowanÄ… moÅ¼na
+otrzymaÄ‡ pod adresem <http://www.avatar.se/molscript/>.
 
 %prep
 %setup -q
