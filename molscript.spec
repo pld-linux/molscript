@@ -1,5 +1,5 @@
 Summary:	MolScript - a tool for producing publication quality molecular images
-Summary(pl.UTF-8):   MolScript - narzędzie do tworzenia obrazów cząsteczek nadających się do publikacji
+Summary(pl.UTF-8):	MolScript - narzędzie do tworzenia obrazów cząsteczek nadających się do publikacji
 Name:		molscript
 Version:	2.1.2
 Release:	1
